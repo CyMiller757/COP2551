@@ -1,0 +1,10 @@
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\bin\Debug\Project 4.exe.config
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\bin\Debug\Project 4.exe
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\bin\Debug\Project 4.pdb
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\obj\Debug\Project 4.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\obj\Debug\Project_4.Form1.resources
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\obj\Debug\Project_4.Properties.Resources.resources
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\obj\Debug\Project 4.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\obj\Debug\Project 4.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\obj\Debug\Project 4.exe
+C:\Users\Home\Desktop\Projects\Project 4\Project 4\obj\Debug\Project 4.pdb
