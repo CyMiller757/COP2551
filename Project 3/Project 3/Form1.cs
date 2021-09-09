@@ -72,5 +72,9 @@ namespace Project_3
             }
         }
 
+        private void exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -37,6 +37,7 @@ namespace Project_3
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.outBox = new System.Windows.Forms.Label();
+            this.exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // inputUnits
@@ -46,7 +47,7 @@ namespace Project_3
             "Inches",
             "Feet",
             "Yards"});
-            this.inputUnits.Location = new System.Drawing.Point(382, 208);
+            this.inputUnits.Location = new System.Drawing.Point(766, 9);
             this.inputUnits.Name = "inputUnits";
             this.inputUnits.Size = new System.Drawing.Size(41, 43);
             this.inputUnits.TabIndex = 0;
@@ -58,14 +59,14 @@ namespace Project_3
             "Inches",
             "Feet",
             "Yards"});
-            this.outputUnits.Location = new System.Drawing.Point(461, 316);
+            this.outputUnits.Location = new System.Drawing.Point(660, 64);
             this.outputUnits.Name = "outputUnits";
             this.outputUnits.Size = new System.Drawing.Size(41, 43);
             this.outputUnits.TabIndex = 1;
             // 
             // inputBox
             // 
-            this.inputBox.Location = new System.Drawing.Point(261, 219);
+            this.inputBox.Location = new System.Drawing.Point(660, 20);
             this.inputBox.Name = "inputBox";
             this.inputBox.Size = new System.Drawing.Size(100, 20);
             this.inputBox.TabIndex = 2;
@@ -75,7 +76,7 @@ namespace Project_3
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(145, 208);
+            this.label1.Location = new System.Drawing.Point(544, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 31);
             this.label1.TabIndex = 3;
@@ -87,7 +88,7 @@ namespace Project_3
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(406, 316);
+            this.label2.Location = new System.Drawing.Point(617, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 31);
             this.label2.TabIndex = 4;
@@ -95,7 +96,7 @@ namespace Project_3
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(617, 316);
+            this.button1.Location = new System.Drawing.Point(529, 622);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 45);
             this.button1.TabIndex = 5;
@@ -108,10 +109,20 @@ namespace Project_3
             this.outBox.AutoSize = true;
             this.outBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.outBox.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.outBox.Location = new System.Drawing.Point(502, 658);
+            this.outBox.Location = new System.Drawing.Point(535, 529);
             this.outBox.Name = "outBox";
             this.outBox.Size = new System.Drawing.Size(0, 31);
             this.outBox.TabIndex = 7;
+            // 
+            // exit
+            // 
+            this.exit.Location = new System.Drawing.Point(1107, 9);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(79, 66);
+            this.exit.TabIndex = 8;
+            this.exit.Text = "Click Me to Quit!";
+            this.exit.UseVisualStyleBackColor = true;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // Form1
             // 
@@ -119,7 +130,9 @@ namespace Project_3
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1198, 732);
+            this.Controls.Add(this.exit);
             this.Controls.Add(this.outBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -143,6 +156,7 @@ namespace Project_3
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label outBox;
+        private System.Windows.Forms.Button exit;
     }
 }
 

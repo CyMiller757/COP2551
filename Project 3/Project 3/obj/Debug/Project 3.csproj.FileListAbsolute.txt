@@ -8,3 +8,13 @@ C:\Users\Home\Desktop\Projects\Project 3\Project 3\obj\Debug\Project 3.csproj.Ge
 C:\Users\Home\Desktop\Projects\Project 3\Project 3\obj\Debug\Project 3.csproj.CoreCompileInputs.cache
 C:\Users\Home\Desktop\Projects\Project 3\Project 3\obj\Debug\Project 3.exe
 C:\Users\Home\Desktop\Projects\Project 3\Project 3\obj\Debug\Project 3.pdb
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\bin\Debug\Project 3.exe.config
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\bin\Debug\Project 3.exe
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\bin\Debug\Project 3.pdb
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\obj\Debug\Project 3.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\obj\Debug\Project_3.Form1.resources
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\obj\Debug\Project_3.Properties.Resources.resources
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\obj\Debug\Project 3.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\obj\Debug\Project 3.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\obj\Debug\Project 3.exe
+C:\Users\Home\Desktop\COP2551\Project 3\Project 3\obj\Debug\Project 3.pdb

@@ -185,6 +185,16 @@ namespace Project_4
             dice2Display.Visible = true;
         }
 
+        private void turnMessage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         public bool checkDubs()
         {
             //check if dice 1 equals dice 2 and returns accordingly

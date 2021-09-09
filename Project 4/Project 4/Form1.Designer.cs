@@ -45,6 +45,7 @@ namespace Project_4
             this.dice2Display = new System.Windows.Forms.PictureBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.turnMessage = new System.Windows.Forms.Label();
+            this.close = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -58,9 +59,9 @@ namespace Project_4
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(-6, 110);
+            this.pictureBox1.Location = new System.Drawing.Point(-6, -7);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(534, 102);
+            this.pictureBox1.Size = new System.Drawing.Size(831, 717);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -176,7 +177,7 @@ namespace Project_4
             // dice1Display
             // 
             this.dice1Display.Image = global::Project_4.Properties.Resources.Die6;
-            this.dice1Display.Location = new System.Drawing.Point(266, 191);
+            this.dice1Display.Location = new System.Drawing.Point(539, 93);
             this.dice1Display.Name = "dice1Display";
             this.dice1Display.Size = new System.Drawing.Size(107, 113);
             this.dice1Display.TabIndex = 11;
@@ -185,7 +186,7 @@ namespace Project_4
             // 
             // dice2Display
             // 
-            this.dice2Display.Location = new System.Drawing.Point(392, 191);
+            this.dice2Display.Location = new System.Drawing.Point(689, 93);
             this.dice2Display.Name = "dice2Display";
             this.dice2Display.Size = new System.Drawing.Size(107, 113);
             this.dice2Display.TabIndex = 12;
@@ -202,6 +203,17 @@ namespace Project_4
             this.turnMessage.TabIndex = 13;
             this.turnMessage.Text = "label6";
             this.turnMessage.Visible = false;
+            this.turnMessage.Click += new System.EventHandler(this.turnMessage_Click);
+            // 
+            // close
+            // 
+            this.close.Location = new System.Drawing.Point(750, 687);
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(75, 23);
+            this.close.TabIndex = 14;
+            this.close.Text = "Click to Quit";
+            this.close.UseVisualStyleBackColor = true;
+            this.close.Click += new System.EventHandler(this.close_Click);
             // 
             // Form1
             // 
@@ -210,6 +222,7 @@ namespace Project_4
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(822, 722);
+            this.Controls.Add(this.close);
             this.Controls.Add(this.turnMessage);
             this.Controls.Add(this.dice2Display);
             this.Controls.Add(this.dice1Display);
@@ -250,6 +263,7 @@ namespace Project_4
         private System.Windows.Forms.PictureBox dice2Display;
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Label turnMessage;
+        private System.Windows.Forms.Button close;
     }
 }
 
