@@ -1,0 +1,30 @@
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.exe
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.deps.json
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.runtimeconfig.json
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.runtimeconfig.dev.json
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.dll
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.pdb
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.csproj.AssemblyReference.cache
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand_List_thingy.Form1.resources
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.csproj.GenerateResource.cache
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.AssemblyInfoInputs.cache
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.AssemblyInfo.cs
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.csproj.CoreCompileInputs.cache
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.dll
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.pdb
+C:\Users\ITE\source\repos\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.genruntimeconfig.cache
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.exe
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.deps.json
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.runtimeconfig.json
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.runtimeconfig.dev.json
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.dll
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\bin\Debug\netcoreapp3.1\Rand List thingy.pdb
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.csproj.AssemblyReference.cache
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand_List_thingy.Form1.resources
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.csproj.GenerateResource.cache
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.AssemblyInfoInputs.cache
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.AssemblyInfo.cs
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.csproj.CoreCompileInputs.cache
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.dll
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.pdb
+C:\Users\ITE\Desktop\Rand List thingy\Rand List thingy\obj\Debug\netcoreapp3.1\Rand List thingy.genruntimeconfig.cache
