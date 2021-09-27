@@ -15,20 +15,26 @@ namespace Project_3
             //thing breaks if I delete this
         }
 
+
+        //tried changing name of button1, but that breaks it too
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
+                //get units and value
                 double inputVal = double.Parse(inputBox.Text);
                 string inputUnit = inputUnits.Text;
                 string outputUnit = outputUnits.Text;
                 double baseline = 0, outputVal = 0;
+
+                //if they are the same, just output the value with no calculation
                 if (inputUnit == outputUnit)
                 {
                     outputVal = inputVal;
                 }
                 else
                 {
+                    //get input units and conver to baseline (basically inches)
                     switch (inputUnit) //help from https://www.geeksforgeeks.org/c-sharp-how-to-use-strings-in-switch-statement/
                     {
                         case "Inches":
@@ -41,6 +47,8 @@ namespace Project_3
                             baseline = inputVal * 36;
                             break;
                     }
+
+                    //get output unit and convert baseline to that
                     switch (outputUnit)
                     {
                         case "Inches":
@@ -55,16 +63,22 @@ namespace Project_3
 
                     }
                 }
+
+                //output the value
                 outBox.Text = (outputVal + " " + outputUnit);
             }
             catch
             {
+
+                //if bad input, yell at user
                 MessageBox.Show("Invalid input", "Input Error",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
         }
 
+
+        //close
         private void exit_Click(object sender, EventArgs e)
         {
             this.Close();
