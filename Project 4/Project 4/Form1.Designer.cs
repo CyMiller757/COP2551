@@ -59,9 +59,9 @@ namespace Project_4
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(-6, -7);
+            this.pictureBox1.Location = new System.Drawing.Point(-11, -12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(831, 717);
+            this.pictureBox1.Size = new System.Drawing.Size(831, 540);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -88,7 +88,7 @@ namespace Project_4
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(146, 75);
+            this.label3.Location = new System.Drawing.Point(67, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 3;
@@ -97,7 +97,7 @@ namespace Project_4
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(119, 75);
+            this.label4.Location = new System.Drawing.Point(61, 99);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 4;
@@ -106,7 +106,7 @@ namespace Project_4
             // p1Score
             // 
             this.p1Score.Enabled = false;
-            this.p1Score.Location = new System.Drawing.Point(166, 72);
+            this.p1Score.Location = new System.Drawing.Point(108, 96);
             this.p1Score.Name = "p1Score";
             this.p1Score.Size = new System.Drawing.Size(100, 20);
             this.p1Score.TabIndex = 5;
@@ -115,7 +115,7 @@ namespace Project_4
             // p2Score
             // 
             this.p2Score.Enabled = false;
-            this.p2Score.Location = new System.Drawing.Point(202, 72);
+            this.p2Score.Location = new System.Drawing.Point(114, 99);
             this.p2Score.Name = "p2Score";
             this.p2Score.Size = new System.Drawing.Size(100, 20);
             this.p2Score.TabIndex = 6;
@@ -176,10 +176,11 @@ namespace Project_4
             // 
             // dice1Display
             // 
+            this.dice1Display.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.dice1Display.Image = global::Project_4.Properties.Resources.Die6;
             this.dice1Display.Location = new System.Drawing.Point(539, 93);
             this.dice1Display.Name = "dice1Display";
-            this.dice1Display.Size = new System.Drawing.Size(107, 113);
+            this.dice1Display.Size = new System.Drawing.Size(107, 104);
             this.dice1Display.TabIndex = 11;
             this.dice1Display.TabStop = false;
             this.dice1Display.Visible = false;
@@ -188,7 +189,7 @@ namespace Project_4
             // 
             this.dice2Display.Location = new System.Drawing.Point(689, 93);
             this.dice2Display.Name = "dice2Display";
-            this.dice2Display.Size = new System.Drawing.Size(107, 113);
+            this.dice2Display.Size = new System.Drawing.Size(104, 104);
             this.dice2Display.TabIndex = 12;
             this.dice2Display.TabStop = false;
             this.dice2Display.Visible = false;
@@ -207,7 +208,7 @@ namespace Project_4
             // 
             // close
             // 
-            this.close.Location = new System.Drawing.Point(750, 687);
+            this.close.Location = new System.Drawing.Point(345, 697);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(75, 23);
             this.close.TabIndex = 14;
@@ -219,7 +220,6 @@ namespace Project_4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(822, 722);
             this.Controls.Add(this.close);
@@ -231,7 +231,7 @@ namespace Project_4
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Roll the Dice Game!";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
