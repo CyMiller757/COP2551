@@ -1,0 +1,10 @@
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\bin\Debug\Project 5.exe.config
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\bin\Debug\Project 5.exe
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\bin\Debug\Project 5.pdb
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\obj\Debug\Project 5.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\obj\Debug\Project_5.Form1.resources
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\obj\Debug\Project_5.Properties.Resources.resources
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\obj\Debug\Project 5.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\obj\Debug\Project 5.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\obj\Debug\Project 5.exe
+C:\Users\Home\Desktop\COP2551\Project 5\Project 5\obj\Debug\Project 5.pdb
