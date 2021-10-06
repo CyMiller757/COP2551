@@ -16,7 +16,22 @@ namespace Project_5
         {
             InitializeComponent();
         }
-        double preTaxTotal = 0, tax = 0, postTaxTotal = 0;
+
+        private void CalcButton_Click(object sender, EventArgs e)
+        {
+            
+            TotalOut.Text = TotalCharges().ToString();
+            TaxOut.Text = TaxCharges().ToString();
+            if(PartsTextBox.Text == "")
+            {
+                PartsOut.Text = "0";
+            }
+            else
+            {
+                PartsOut.Text = PartsTextBox.Text;
+            }
+            ServiceandLaborOut.Text = CalcPartsAndLabor().ToString();
+        }
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
@@ -32,14 +47,29 @@ namespace Project_5
             ClearFees();
         }
 
+        private double CalcPartsAndLabor()
+        {
+            double temp, labor;
+            temp = OilLubeCharges() + FlushCharges() + MiscCharges();
+            if(LaborText.Text == "")
+            {
+                return temp;
+            }
+            else
+            {
+                double.TryParse(LaborText.Text, out labor);
+                return temp + labor;
+            }
+        }
+
         private double OilLubeCharges()
         {
             double outie = 0;
-            if (OilChangeBox.Equals(true))
+            if (OilChangeBox.Checked)
             {
                 outie += 26;
             }
-            if (LubeBox.Equals(true))
+            if (LubeBox.Checked)
             {
                 outie += 18;
             }
@@ -49,11 +79,11 @@ namespace Project_5
         private double FlushCharges()
         {
             double outie = 0;
-            if (RadiatorFlushBox.Equals(true))
+            if (RadiatorFlushBox.Checked)
             {
                 outie += 30;
             }
-            if (TransFlushBox.Equals(true))
+            if (TransFlushBox.Checked)
             {
                 outie += 80;
             }
@@ -64,15 +94,15 @@ namespace Project_5
         private double MiscCharges()
         {
             double outie = 0;
-            if (InspectionBox.Equals(true))
+            if (InspectionBox.Checked)
             {
                 outie += 15;
             }
-            if (MufflerSwapBox.Equals(true))
+            if (MufflerSwapBox.Checked)
             {
-                outie += 15;
+                outie += 100;
             }
-            if (TireRotateBox.Equals(true))
+            if (TireRotateBox.Checked)
             {
                 outie += 20;
             }
@@ -80,15 +110,44 @@ namespace Project_5
 
         }
 
-        private double TaxCharges()
+        private double OtherCharges()
         {
-            double outie;
-            if(PartsTextBox.Text == null)
+            double parts = 0, labor = 0, outie = 0;
+            if(PartsTextBox.Text == "" && LaborText.Text == "")
             {
                 return 0;
             }
-            else if (outie = double.TryParse(PartsTextBox.Text))
+            else if(double.TryParse(PartsTextBox.Text, out parts))
             {
+                outie += parts;
+            }
+            else
+            {
+                MessageBox.Show("Please enter Valid Parts Input");
+                return 0;
+            }
+            if (double.TryParse(LaborText.Text, out labor))
+            {
+                outie += labor;
+            }
+            else
+            {
+                MessageBox.Show("Please enter Valid Labor Input");
+                return 0;
+            }
+            return outie;
+        }
+
+        private double TaxCharges()
+        {
+            double outie;
+            if(PartsTextBox.Text == "")
+            {
+                return 0;
+            }
+            else if (double.TryParse(PartsTextBox.Text, out outie))
+            {
+                outie *= .06;
                 return outie;
             }
             else
@@ -100,7 +159,8 @@ namespace Project_5
 
         private double TotalCharges()
         {
-
+            return (TaxCharges() + MiscCharges() + OtherCharges() 
+                + FlushCharges() + OilLubeCharges());
         }
 
         private void ClearOilLube()

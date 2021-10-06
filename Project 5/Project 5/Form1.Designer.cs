@@ -31,37 +31,37 @@ namespace Project_5
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.LubePanel = new System.Windows.Forms.Panel();
-            this.LubeOilText = new System.Windows.Forms.Label();
-            this.OilChangeBox = new System.Windows.Forms.CheckBox();
             this.LubeBox = new System.Windows.Forms.CheckBox();
+            this.OilChangeBox = new System.Windows.Forms.CheckBox();
+            this.LubeOilText = new System.Windows.Forms.Label();
             this.FlushPanel = new System.Windows.Forms.Panel();
             this.TransFlushBox = new System.Windows.Forms.CheckBox();
             this.RadiatorFlushBox = new System.Windows.Forms.CheckBox();
             this.FlushesText = new System.Windows.Forms.Label();
             this.MiscPanel = new System.Windows.Forms.Panel();
+            this.TireRotateBox = new System.Windows.Forms.CheckBox();
             this.MufflerSwapBox = new System.Windows.Forms.CheckBox();
             this.InspectionBox = new System.Windows.Forms.CheckBox();
             this.MiscText = new System.Windows.Forms.Label();
             this.PartsAndLaborPanel = new System.Windows.Forms.Panel();
-            this.PartsAndLaborText = new System.Windows.Forms.Label();
-            this.PartsTextBox = new System.Windows.Forms.TextBox();
-            this.Parts = new System.Windows.Forms.Label();
-            this.LaborText = new System.Windows.Forms.TextBox();
             this.Labor = new System.Windows.Forms.Label();
+            this.LaborText = new System.Windows.Forms.TextBox();
+            this.Parts = new System.Windows.Forms.Label();
+            this.PartsTextBox = new System.Windows.Forms.TextBox();
+            this.PartsAndLaborText = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.SummaryText = new System.Windows.Forms.Label();
-            this.ServiceAndLaborText = new System.Windows.Forms.Label();
-            this.PartsText = new System.Windows.Forms.Label();
-            this.ServiceandLaborOut = new System.Windows.Forms.TextBox();
-            this.PartsOut = new System.Windows.Forms.TextBox();
-            this.TaxOut = new System.Windows.Forms.TextBox();
-            this.TotalOut = new System.Windows.Forms.TextBox();
-            this.TaxText = new System.Windows.Forms.Label();
             this.TotalText = new System.Windows.Forms.Label();
+            this.TaxText = new System.Windows.Forms.Label();
+            this.TotalOut = new System.Windows.Forms.TextBox();
+            this.TaxOut = new System.Windows.Forms.TextBox();
+            this.PartsOut = new System.Windows.Forms.TextBox();
+            this.ServiceandLaborOut = new System.Windows.Forms.TextBox();
+            this.PartsText = new System.Windows.Forms.Label();
+            this.ServiceAndLaborText = new System.Windows.Forms.Label();
+            this.SummaryText = new System.Windows.Forms.Label();
             this.CalcButton = new System.Windows.Forms.Button();
             this.ClearButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
-            this.TireRotateBox = new System.Windows.Forms.CheckBox();
             this.LubePanel.SuspendLayout();
             this.FlushPanel.SuspendLayout();
             this.MiscPanel.SuspendLayout();
@@ -79,14 +79,15 @@ namespace Project_5
             this.LubePanel.Size = new System.Drawing.Size(136, 68);
             this.LubePanel.TabIndex = 0;
             // 
-            // LubeOilText
+            // LubeBox
             // 
-            this.LubeOilText.AutoSize = true;
-            this.LubeOilText.Location = new System.Drawing.Point(0, 0);
-            this.LubeOilText.Name = "LubeOilText";
-            this.LubeOilText.Size = new System.Drawing.Size(67, 13);
-            this.LubeOilText.TabIndex = 0;
-            this.LubeOilText.Text = "Oil and Lube";
+            this.LubeBox.AutoSize = true;
+            this.LubeBox.Location = new System.Drawing.Point(3, 41);
+            this.LubeBox.Name = "LubeBox";
+            this.LubeBox.Size = new System.Drawing.Size(112, 17);
+            this.LubeBox.TabIndex = 2;
+            this.LubeBox.Text = "Lube Job ($18.00)";
+            this.LubeBox.UseVisualStyleBackColor = true;
             // 
             // OilChangeBox
             // 
@@ -98,15 +99,14 @@ namespace Project_5
             this.OilChangeBox.Text = "Oil Change ($26.00)";
             this.OilChangeBox.UseVisualStyleBackColor = true;
             // 
-            // LubeBox
+            // LubeOilText
             // 
-            this.LubeBox.AutoSize = true;
-            this.LubeBox.Location = new System.Drawing.Point(3, 41);
-            this.LubeBox.Name = "LubeBox";
-            this.LubeBox.Size = new System.Drawing.Size(112, 17);
-            this.LubeBox.TabIndex = 2;
-            this.LubeBox.Text = "Lube Job ($18.00)";
-            this.LubeBox.UseVisualStyleBackColor = true;
+            this.LubeOilText.AutoSize = true;
+            this.LubeOilText.Location = new System.Drawing.Point(0, 0);
+            this.LubeOilText.Name = "LubeOilText";
+            this.LubeOilText.Size = new System.Drawing.Size(67, 13);
+            this.LubeOilText.TabIndex = 0;
+            this.LubeOilText.Text = "Oil and Lube";
             // 
             // FlushPanel
             // 
@@ -158,6 +158,16 @@ namespace Project_5
             this.MiscPanel.Size = new System.Drawing.Size(136, 98);
             this.MiscPanel.TabIndex = 4;
             // 
+            // TireRotateBox
+            // 
+            this.TireRotateBox.AutoSize = true;
+            this.TireRotateBox.Location = new System.Drawing.Point(3, 64);
+            this.TireRotateBox.Name = "TireRotateBox";
+            this.TireRotateBox.Size = new System.Drawing.Size(129, 17);
+            this.TireRotateBox.TabIndex = 3;
+            this.TireRotateBox.Text = "Tire Rotation ($20.00)";
+            this.TireRotateBox.UseVisualStyleBackColor = true;
+            // 
             // MufflerSwapBox
             // 
             this.MufflerSwapBox.AutoSize = true;
@@ -199,21 +209,21 @@ namespace Project_5
             this.PartsAndLaborPanel.Size = new System.Drawing.Size(140, 97);
             this.PartsAndLaborPanel.TabIndex = 4;
             // 
-            // PartsAndLaborText
+            // Labor
             // 
-            this.PartsAndLaborText.AutoSize = true;
-            this.PartsAndLaborText.Location = new System.Drawing.Point(0, 0);
-            this.PartsAndLaborText.Name = "PartsAndLaborText";
-            this.PartsAndLaborText.Size = new System.Drawing.Size(82, 13);
-            this.PartsAndLaborText.TabIndex = 0;
-            this.PartsAndLaborText.Text = "Parts and Labor";
+            this.Labor.AutoSize = true;
+            this.Labor.Location = new System.Drawing.Point(0, 63);
+            this.Labor.Name = "Labor";
+            this.Labor.Size = new System.Drawing.Size(37, 13);
+            this.Labor.TabIndex = 4;
+            this.Labor.Text = "Labor:";
             // 
-            // PartsTextBox
+            // LaborText
             // 
-            this.PartsTextBox.Location = new System.Drawing.Point(39, 32);
-            this.PartsTextBox.Name = "PartsTextBox";
-            this.PartsTextBox.Size = new System.Drawing.Size(87, 20);
-            this.PartsTextBox.TabIndex = 1;
+            this.LaborText.Location = new System.Drawing.Point(39, 60);
+            this.LaborText.Name = "LaborText";
+            this.LaborText.Size = new System.Drawing.Size(87, 20);
+            this.LaborText.TabIndex = 3;
             // 
             // Parts
             // 
@@ -224,21 +234,21 @@ namespace Project_5
             this.Parts.TabIndex = 2;
             this.Parts.Text = "Parts:";
             // 
-            // LaborText
+            // PartsTextBox
             // 
-            this.LaborText.Location = new System.Drawing.Point(39, 60);
-            this.LaborText.Name = "LaborText";
-            this.LaborText.Size = new System.Drawing.Size(87, 20);
-            this.LaborText.TabIndex = 3;
+            this.PartsTextBox.Location = new System.Drawing.Point(39, 32);
+            this.PartsTextBox.Name = "PartsTextBox";
+            this.PartsTextBox.Size = new System.Drawing.Size(87, 20);
+            this.PartsTextBox.TabIndex = 1;
             // 
-            // Labor
+            // PartsAndLaborText
             // 
-            this.Labor.AutoSize = true;
-            this.Labor.Location = new System.Drawing.Point(0, 63);
-            this.Labor.Name = "Labor";
-            this.Labor.Size = new System.Drawing.Size(37, 13);
-            this.Labor.TabIndex = 4;
-            this.Labor.Text = "Labor:";
+            this.PartsAndLaborText.AutoSize = true;
+            this.PartsAndLaborText.Location = new System.Drawing.Point(0, 0);
+            this.PartsAndLaborText.Name = "PartsAndLaborText";
+            this.PartsAndLaborText.Size = new System.Drawing.Size(97, 13);
+            this.PartsAndLaborText.TabIndex = 0;
+            this.PartsAndLaborText.Text = "Parts and Labor ($)";
             // 
             // panel1
             // 
@@ -256,64 +266,14 @@ namespace Project_5
             this.panel1.Size = new System.Drawing.Size(285, 135);
             this.panel1.TabIndex = 3;
             // 
-            // SummaryText
+            // TotalText
             // 
-            this.SummaryText.AutoSize = true;
-            this.SummaryText.Location = new System.Drawing.Point(0, 0);
-            this.SummaryText.Name = "SummaryText";
-            this.SummaryText.Size = new System.Drawing.Size(50, 13);
-            this.SummaryText.TabIndex = 0;
-            this.SummaryText.Text = "Summary";
-            // 
-            // ServiceAndLaborText
-            // 
-            this.ServiceAndLaborText.AutoSize = true;
-            this.ServiceAndLaborText.Location = new System.Drawing.Point(39, 22);
-            this.ServiceAndLaborText.Name = "ServiceAndLaborText";
-            this.ServiceAndLaborText.Size = new System.Drawing.Size(97, 13);
-            this.ServiceAndLaborText.TabIndex = 1;
-            this.ServiceAndLaborText.Text = "Service and Labor:";
-            // 
-            // PartsText
-            // 
-            this.PartsText.AutoSize = true;
-            this.PartsText.Location = new System.Drawing.Point(102, 48);
-            this.PartsText.Name = "PartsText";
-            this.PartsText.Size = new System.Drawing.Size(34, 13);
-            this.PartsText.TabIndex = 2;
-            this.PartsText.Text = "Parts:";
-            // 
-            // ServiceandLaborOut
-            // 
-            this.ServiceandLaborOut.Enabled = false;
-            this.ServiceandLaborOut.Location = new System.Drawing.Point(143, 19);
-            this.ServiceandLaborOut.Name = "ServiceandLaborOut";
-            this.ServiceandLaborOut.Size = new System.Drawing.Size(87, 20);
-            this.ServiceandLaborOut.TabIndex = 5;
-            // 
-            // PartsOut
-            // 
-            this.PartsOut.Enabled = false;
-            this.PartsOut.Location = new System.Drawing.Point(143, 45);
-            this.PartsOut.Name = "PartsOut";
-            this.PartsOut.Size = new System.Drawing.Size(87, 20);
-            this.PartsOut.TabIndex = 6;
-            // 
-            // TaxOut
-            // 
-            this.TaxOut.Enabled = false;
-            this.TaxOut.Location = new System.Drawing.Point(143, 71);
-            this.TaxOut.Name = "TaxOut";
-            this.TaxOut.Size = new System.Drawing.Size(87, 20);
-            this.TaxOut.TabIndex = 7;
-            // 
-            // TotalOut
-            // 
-            this.TotalOut.Enabled = false;
-            this.TotalOut.Location = new System.Drawing.Point(143, 97);
-            this.TotalOut.Name = "TotalOut";
-            this.TotalOut.Size = new System.Drawing.Size(87, 20);
-            this.TotalOut.TabIndex = 8;
+            this.TotalText.AutoSize = true;
+            this.TotalText.Location = new System.Drawing.Point(102, 100);
+            this.TotalText.Name = "TotalText";
+            this.TotalText.Size = new System.Drawing.Size(34, 13);
+            this.TotalText.TabIndex = 10;
+            this.TotalText.Text = "Total:";
             // 
             // TaxText
             // 
@@ -324,14 +284,64 @@ namespace Project_5
             this.TaxText.TabIndex = 9;
             this.TaxText.Text = "Tax:";
             // 
-            // TotalText
+            // TotalOut
             // 
-            this.TotalText.AutoSize = true;
-            this.TotalText.Location = new System.Drawing.Point(102, 100);
-            this.TotalText.Name = "TotalText";
-            this.TotalText.Size = new System.Drawing.Size(34, 13);
-            this.TotalText.TabIndex = 10;
-            this.TotalText.Text = "Total:";
+            this.TotalOut.Enabled = false;
+            this.TotalOut.Location = new System.Drawing.Point(143, 97);
+            this.TotalOut.Name = "TotalOut";
+            this.TotalOut.Size = new System.Drawing.Size(87, 20);
+            this.TotalOut.TabIndex = 8;
+            // 
+            // TaxOut
+            // 
+            this.TaxOut.Enabled = false;
+            this.TaxOut.Location = new System.Drawing.Point(143, 71);
+            this.TaxOut.Name = "TaxOut";
+            this.TaxOut.Size = new System.Drawing.Size(87, 20);
+            this.TaxOut.TabIndex = 7;
+            // 
+            // PartsOut
+            // 
+            this.PartsOut.Enabled = false;
+            this.PartsOut.Location = new System.Drawing.Point(143, 45);
+            this.PartsOut.Name = "PartsOut";
+            this.PartsOut.Size = new System.Drawing.Size(87, 20);
+            this.PartsOut.TabIndex = 6;
+            // 
+            // ServiceandLaborOut
+            // 
+            this.ServiceandLaborOut.Enabled = false;
+            this.ServiceandLaborOut.Location = new System.Drawing.Point(143, 19);
+            this.ServiceandLaborOut.Name = "ServiceandLaborOut";
+            this.ServiceandLaborOut.Size = new System.Drawing.Size(87, 20);
+            this.ServiceandLaborOut.TabIndex = 5;
+            // 
+            // PartsText
+            // 
+            this.PartsText.AutoSize = true;
+            this.PartsText.Location = new System.Drawing.Point(102, 48);
+            this.PartsText.Name = "PartsText";
+            this.PartsText.Size = new System.Drawing.Size(34, 13);
+            this.PartsText.TabIndex = 2;
+            this.PartsText.Text = "Parts:";
+            // 
+            // ServiceAndLaborText
+            // 
+            this.ServiceAndLaborText.AutoSize = true;
+            this.ServiceAndLaborText.Location = new System.Drawing.Point(39, 22);
+            this.ServiceAndLaborText.Name = "ServiceAndLaborText";
+            this.ServiceAndLaborText.Size = new System.Drawing.Size(97, 13);
+            this.ServiceAndLaborText.TabIndex = 1;
+            this.ServiceAndLaborText.Text = "Service and Labor:";
+            // 
+            // SummaryText
+            // 
+            this.SummaryText.AutoSize = true;
+            this.SummaryText.Location = new System.Drawing.Point(0, 0);
+            this.SummaryText.Name = "SummaryText";
+            this.SummaryText.Size = new System.Drawing.Size(50, 13);
+            this.SummaryText.TabIndex = 0;
+            this.SummaryText.Text = "Summary";
             // 
             // CalcButton
             // 
@@ -341,6 +351,7 @@ namespace Project_5
             this.CalcButton.TabIndex = 5;
             this.CalcButton.Text = "Calculate";
             this.CalcButton.UseVisualStyleBackColor = true;
+            this.CalcButton.Click += new System.EventHandler(this.CalcButton_Click);
             // 
             // ClearButton
             // 
@@ -361,16 +372,6 @@ namespace Project_5
             this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
-            // 
-            // TireRotateBox
-            // 
-            this.TireRotateBox.AutoSize = true;
-            this.TireRotateBox.Location = new System.Drawing.Point(3, 64);
-            this.TireRotateBox.Name = "TireRotateBox";
-            this.TireRotateBox.Size = new System.Drawing.Size(129, 17);
-            this.TireRotateBox.TabIndex = 3;
-            this.TireRotateBox.Text = "Tire Rotation ($20.00)";
-            this.TireRotateBox.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
