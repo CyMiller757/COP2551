@@ -17,6 +17,7 @@ namespace Project_5
             InitializeComponent();
         }
 
+        //Outputs to grey boxes at bottom in summary section
         private void CalcButton_Click(object sender, EventArgs e)
         {
             
@@ -33,11 +34,14 @@ namespace Project_5
             ServiceandLaborOut.Text = CalcPartsAndLabor().ToString();
         }
 
+
+        //pretty simple, no explanation needed
         private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        //clears out check boxes and input boxes
         private void ClearButton_Click(object sender, EventArgs e)
         {
             ClearOilLube();
@@ -47,6 +51,7 @@ namespace Project_5
             ClearFees();
         }
 
+        //calculate arts and labor for that section of summary
         private double CalcPartsAndLabor()
         {
             double temp, labor;
@@ -62,6 +67,7 @@ namespace Project_5
             }
         }
 
+        //checks if in oil and lube are selected and responds accordingly
         private double OilLubeCharges()
         {
             double outie = 0;
@@ -76,6 +82,7 @@ namespace Project_5
             return outie;
         }
 
+        //same as before but for flush section
         private double FlushCharges()
         {
             double outie = 0;
@@ -91,6 +98,7 @@ namespace Project_5
 
         }
 
+        //you already know, but for Misc section
         private double MiscCharges()
         {
             double outie = 0;
@@ -110,6 +118,7 @@ namespace Project_5
 
         }
 
+        //checks parts and labor input and responds as needed
         private double OtherCharges()
         {
             double parts = 0, labor = 0, outie = 0;
@@ -138,6 +147,7 @@ namespace Project_5
             return outie;
         }
 
+        //calcs taxes if neccessary
         private double TaxCharges()
         {
             double outie;
@@ -157,24 +167,30 @@ namespace Project_5
             }
         }
 
+
+        //just adds em all up
         private double TotalCharges()
         {
             return (TaxCharges() + MiscCharges() + OtherCharges() 
                 + FlushCharges() + OilLubeCharges());
         }
 
+
+        //Clear check boxes in Oil and Lube
         private void ClearOilLube()
         {
             OilChangeBox.Checked = false;
             LubeBox.Checked = false;
         }
 
+        //Clears check boxes in Flushes
         private void ClearFlushes()
         {
             RadiatorFlushBox.Checked = false;
             TransFlushBox.Checked = false;
         }
 
+        //Clears check boxes in Misc
         private void ClearMisc()
         {
             InspectionBox.Checked = false;
@@ -182,6 +198,7 @@ namespace Project_5
             TireRotateBox.Checked = false;
         }
 
+        //clears the input boxes in parts and labor
         private void ClearOther()
         {
             PartsTextBox.Text = null;
@@ -189,6 +206,7 @@ namespace Project_5
 
         }
 
+        //clears the output/summary section
         private void ClearFees()
         {
             ServiceandLaborOut.Text = null;
