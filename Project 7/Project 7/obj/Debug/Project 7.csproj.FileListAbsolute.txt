@@ -1,0 +1,10 @@
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\bin\Debug\Project 7.exe.config
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\bin\Debug\Project 7.exe
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\bin\Debug\Project 7.pdb
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\obj\Debug\Project 7.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\obj\Debug\Project_7.Form1.resources
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\obj\Debug\Project_7.Properties.Resources.resources
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\obj\Debug\Project 7.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\obj\Debug\Project 7.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\obj\Debug\Project 7.exe
+C:\Users\Home\Desktop\COP2551\Project 7\Project 7\obj\Debug\Project 7.pdb

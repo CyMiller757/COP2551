@@ -1,0 +1,10 @@
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\bin\Debug\Project 8a.exe.config
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\bin\Debug\Project 8a.exe
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\bin\Debug\Project 8a.pdb
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\obj\Debug\Project 8a.csproj.AssemblyReference.cache
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\obj\Debug\Project_8a.Properties.Resources.resources
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\obj\Debug\Project 8a.csproj.GenerateResource.cache
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\obj\Debug\Project 8a.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\obj\Debug\Project 8a.exe
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\obj\Debug\Project 8a.pdb
+C:\Users\Home\Desktop\COP2551\Project 8a\Project 8a\obj\Debug\Project_8a.Form1.resources
