@@ -8,6 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*Sources:
+ * https://docs.microsoft.com/en-us/dotnet/api/system.string.substring?view=net-5.0
+ * 
+ * 
+ * 
+ */
+
 namespace Project_8a
 {
     public partial class Form1 : Form
@@ -19,13 +26,40 @@ namespace Project_8a
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] names = System.IO.File.ReadAllLines("Names.txt");
-            string outie = "";
-            foreach(string i in names)
+            string[] nameAndYear = System.IO.File.ReadAllLines("Names.txt");
+            int size = nameAndYear.Length, temp, year;
+            string name;
+
+            student[] peoples = new student[size];
+            for (int i = 0; i < size; i++)
             {
-                outie += i + "\n";
+                temp = nameAndYear[i].Length - 4;
+                name = nameAndYear[i].Substring(0, temp);
+                year = int.Parse(nameAndYear[i].Substring(temp));
+                peoples[i] = new student(name, year);
+                studentSelection.Items.Add(name + year.ToString());
             }
-            label1.Text = outie;
+        }
+
+    }
+    public class student
+    {
+        private string name;
+        private int year;
+        public student(string n, int y)
+        {
+            name = n;
+            year = y;
+        }
+
+        public string getName()
+        {
+            return name;
+        }
+        
+        public int getYear()
+        {
+            return year;
         }
     }
 }
