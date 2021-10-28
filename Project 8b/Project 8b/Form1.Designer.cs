@@ -31,21 +31,21 @@ namespace Project_8b
         {
             this.peopleOutput = new System.Windows.Forms.ListBox();
             this.show = new System.Windows.Forms.Button();
-            this.add = new System.Windows.Forms.Button();
+            this.addPerson = new System.Windows.Forms.Button();
             this.close = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // peopleOutput
             // 
             this.peopleOutput.FormattingEnabled = true;
-            this.peopleOutput.Location = new System.Drawing.Point(76, 85);
+            this.peopleOutput.Location = new System.Drawing.Point(53, 12);
             this.peopleOutput.Name = "peopleOutput";
             this.peopleOutput.Size = new System.Drawing.Size(126, 95);
             this.peopleOutput.TabIndex = 0;
             // 
             // show
             // 
-            this.show.Location = new System.Drawing.Point(102, 201);
+            this.show.Location = new System.Drawing.Point(79, 128);
             this.show.Name = "show";
             this.show.Size = new System.Drawing.Size(75, 23);
             this.show.TabIndex = 1;
@@ -53,18 +53,19 @@ namespace Project_8b
             this.show.UseVisualStyleBackColor = true;
             this.show.Click += new System.EventHandler(this.show_Click);
             // 
-            // add
+            // addPerson
             // 
-            this.add.Location = new System.Drawing.Point(282, 284);
-            this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(75, 23);
-            this.add.TabIndex = 2;
-            this.add.Text = "Add Person";
-            this.add.UseVisualStyleBackColor = true;
+            this.addPerson.Location = new System.Drawing.Point(79, 176);
+            this.addPerson.Name = "addPerson";
+            this.addPerson.Size = new System.Drawing.Size(75, 23);
+            this.addPerson.TabIndex = 2;
+            this.addPerson.Text = "Add Person";
+            this.addPerson.UseVisualStyleBackColor = true;
+            this.addPerson.Click += new System.EventHandler(this.addPerson_Click);
             // 
             // close
             // 
-            this.close.Location = new System.Drawing.Point(404, 396);
+            this.close.Location = new System.Drawing.Point(79, 224);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(75, 23);
             this.close.TabIndex = 3;
@@ -76,9 +77,9 @@ namespace Project_8b
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(593, 527);
+            this.ClientSize = new System.Drawing.Size(233, 270);
             this.Controls.Add(this.close);
-            this.Controls.Add(this.add);
+            this.Controls.Add(this.addPerson);
             this.Controls.Add(this.show);
             this.Controls.Add(this.peopleOutput);
             this.Name = "Form1";
@@ -92,7 +93,7 @@ namespace Project_8b
 
         private System.Windows.Forms.ListBox peopleOutput;
         private System.Windows.Forms.Button show;
-        private System.Windows.Forms.Button add;
+        private System.Windows.Forms.Button addPerson;
         private System.Windows.Forms.Button close;
     }
 }
